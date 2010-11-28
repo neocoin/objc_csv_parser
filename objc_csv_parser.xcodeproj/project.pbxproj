@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D940C312A223B8008F61D9 /* CSVTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D940C212A223B8008F61D9 /* CSVTestCase.m */; };
+		07D940C912A223FC008F61D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D940C812A223FC008F61D9 /* Foundation.framework */; };
+		07D940F612A2263A008F61D9 /* NSString+CSV.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D9407B12A21FD1008F61D9 /* NSString+CSV.m */; };
+		07D9426112A23928008F61D9 /* NSArray+CSV.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D9426012A23928008F61D9 /* NSArray+CSV.m */; };
+		07D9438B12A24C7B008F61D9 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 07D9438A12A24C7B008F61D9 /* README.markdown */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07D9407A12A21FD1008F61D9 /* NSString+CSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CSV.h"; sourceTree = "<group>"; };
+		07D9407B12A21FD1008F61D9 /* NSString+CSV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CSV.m"; sourceTree = "<group>"; };
+		07D9409A12A221B4008F61D9 /* UnitTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D9409B12A221B4008F61D9 /* UnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTest-Info.plist"; sourceTree = "<group>"; };
+		07D940C112A223B8008F61D9 /* CSVTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSVTestCase.h; sourceTree = "<group>"; };
+		07D940C212A223B8008F61D9 /* CSVTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSVTestCase.m; sourceTree = "<group>"; };
+		07D940C812A223FC008F61D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		07D9425F12A23928008F61D9 /* NSArray+CSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CSV.h"; sourceTree = "<group>"; };
+		07D9426012A23928008F61D9 /* NSArray+CSV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CSV.m"; sourceTree = "<group>"; };
+		07D9438A12A24C7B008F61D9 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07D9409712A221B4008F61D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D940C912A223FC008F61D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07D9404112A21DA6008F61D9 = {
+			isa = PBXGroup;
+			children = (
+				07D9438A12A24C7B008F61D9 /* README.markdown */,
+				07D9407912A21FD1008F61D9 /* NSString+CSV */,
+				07D940B712A22279008F61D9 /* Classes */,
+				07D9405912A21EA7008F61D9 /* Products */,
+				07D941DA12A229E8008F61D9 /* frameworks */,
+				07D9409B12A221B4008F61D9 /* UnitTest-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		07D9405912A21EA7008F61D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07D9409A12A221B4008F61D9 /* UnitTest.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07D9407912A21FD1008F61D9 /* NSString+CSV */ = {
+			isa = PBXGroup;
+			children = (
+				07D9407A12A21FD1008F61D9 /* NSString+CSV.h */,
+				07D9407B12A21FD1008F61D9 /* NSString+CSV.m */,
+				07D9425F12A23928008F61D9 /* NSArray+CSV.h */,
+				07D9426012A23928008F61D9 /* NSArray+CSV.m */,
+			);
+			path = "NSString+CSV";
+			sourceTree = "<group>";
+		};
+		07D940B712A22279008F61D9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				07D940C112A223B8008F61D9 /* CSVTestCase.h */,
+				07D940C212A223B8008F61D9 /* CSVTestCase.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		07D941DA12A229E8008F61D9 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07D940C812A223FC008F61D9 /* Foundation.framework */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07D9409912A221B4008F61D9 /* UnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D9409F12A221B5008F61D9 /* Build configuration list for PBXNativeTarget "UnitTest" */;
+			buildPhases = (
+				07D9409512A221B4008F61D9 /* Resources */,
+				07D9409612A221B4008F61D9 /* Sources */,
+				07D9409712A221B4008F61D9 /* Frameworks */,
+				07D9409812A221B4008F61D9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnitTest;
+			productName = UnitTest;
+			productReference = 07D9409A12A221B4008F61D9 /* UnitTest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07D9404312A21DA6008F61D9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 07D9404612A21DA6008F61D9 /* Build configuration list for PBXProject "objc_csv_parser" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 07D9404112A21DA6008F61D9;
+			productRefGroup = 07D9405912A21EA7008F61D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07D9409912A221B4008F61D9 /* UnitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07D9409512A221B4008F61D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D9438B12A24C7B008F61D9 /* README.markdown in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07D9409812A221B4008F61D9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07D9409612A221B4008F61D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D940F612A2263A008F61D9 /* NSString+CSV.m in Sources */,
+				07D940C312A223B8008F61D9 /* CSVTestCase.m in Sources */,
+				07D9426112A23928008F61D9 /* NSArray+CSV.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		07D9404412A21DA6008F61D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		07D9404512A21DA6008F61D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		07D9409D12A221B5008F61D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "UnitTest-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = UnitTest;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		07D9409E12A221B5008F61D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "UnitTest-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = UnitTest;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07D9404612A21DA6008F61D9 /* Build configuration list for PBXProject "objc_csv_parser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D9404412A21DA6008F61D9 /* Debug */,
+				07D9404512A21DA6008F61D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D9409F12A221B5008F61D9 /* Build configuration list for PBXNativeTarget "UnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D9409D12A221B5008F61D9 /* Debug */,
+				07D9409E12A221B5008F61D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07D9404312A21DA6008F61D9 /* Project object */;
+}
