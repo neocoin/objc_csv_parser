@@ -6,8 +6,13 @@ This project is based on
 
 Thanks Drew McCormack,
 
+##Applying your project
+
+Copy "NSString+CSV" to your source path, and include files in that directory.
 
 ##Usage
+
+You can see running examples in "Classes/CSVTestCase.m". 
 
 ### building CSV format
 

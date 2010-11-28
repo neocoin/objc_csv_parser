@@ -1,6 +1,6 @@
 
 // http://tools.ietf.org/html/rfc4180 + empty line ignore
-// http://www.macresearch.org/cocoa-scientists-part-xxvi-parsing-csv-data
+// http://www.macresearch.org/cocoa-scientists-part-xxvi-parsing-csv-datam + bug fix
 
 @interface NSString(CSV)
 
