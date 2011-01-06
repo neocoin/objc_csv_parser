@@ -41,7 +41,7 @@ You can see running examples in "Classes/CSVTestCase.m".
 
 You can use enumerator style. If you want to parse huge number of csv rows, this method can be efficient. 
 
-This don't mean streaming from NSData. Generally, csv file size is small (under 5 MB), but parsing time can be very long (10000 lines over).
+This doesn't mean stream parsing from NSData. Event if csv file size is small (under 5 MB), but parsing time can be very long (10000 lines over).
 
 <pre>
 	NSEnumerator* en = [@"aaa,bbb,ccc\n"
